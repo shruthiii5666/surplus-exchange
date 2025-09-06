@@ -22,10 +22,15 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+        },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -57,6 +62,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "vendor-primary": "hsl(var(--vendor-primary))",
+        "vendor-secondary": "hsl(var(--vendor-secondary))",
+        "vendor-accent": "hsl(var(--vendor-accent))",
+        "vendor-warning": "hsl(var(--vendor-warning))",
       },
       borderRadius: {
         lg: "var(--radius)",
